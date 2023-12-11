@@ -16,12 +16,12 @@ const Layout = () => {
                             </h1>
                         </div> 
                         <div class="col-6 text-light d-flex justify-content-end gap-3">
-                            {/* <div>
-                                Home
+                            <div>
+                                <a href="#productList" className="text-light text-decoration-none" id="nav1">Home</a>
                             </div>
                             <div>
-                                Cart
-                            </div> */}
+                                <a href="#cart" className="text-warning text-decoration-none" id="nav2">Cart</a>
+                            </div>
                         </div>      
                     </div>
 

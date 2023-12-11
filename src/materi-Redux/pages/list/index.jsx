@@ -88,7 +88,7 @@ const ListPage = () => {
   return (
     <div className='bg bg-dark text-light'>
       <div className="container row justify-content-end">
-          <div className='col-3 mb-5 mt-5'>
+          <div className='col-4 mb-5 mt-5' id="productList">
               <input class="form-control" placeholder="Search Product Name.." onChange={handleSearch}/>
           </div>
       </div>
@@ -153,7 +153,7 @@ const ListPage = () => {
             </div>
       </Modal>
 
-      <div className="mt-5 mx-5 d-flex justify-content-center">
+      <div id="cart" className="mt-5 mx-5 d-flex justify-content-center">
         {/* Menampilkan isi cart */}
         {/* <h4>Cart:{cart.}</h4> */}
         <div className="card bg bg-dark text-light">
