@@ -95,7 +95,7 @@ const ListPage = () => {
       <div className="container d-flex justify-content-between flex-wrap gap-2">
           {entities.map((product, index) => (
               <div className="card text-bg-dark shadow-lg" key={index}>
-                <img src={product.thumbnail} className='wrap w-100' style={{height: '170px'}}/>
+                <img id="img" src={product.thumbnail} className='wrap w-100' style={{height: '170px'}}/>
                 <div className="card-body">
                     <h5 className="card-title text-warning mt-1">{product.title}</h5>
                     <p className="card-texts">{product.description}</p>
